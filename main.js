@@ -13,7 +13,12 @@ const blackBook = {
       return errorAlert.innerText = "enter something to do"
     }else{
       todos.push(inputVal);
-      return console.log(todos)
+      todos.join("");
+      for (let i = 0; i < todos.length; i++){
+          // list.append(`<li>${todos[i]}</li>`);
+      }
+      console.log(todos)
     }
+    return list.innerHTML = `<li>${todos.join("</li><li>")} </li>`;
   }
 }
