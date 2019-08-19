@@ -1,0 +1,16 @@
+.wrapper {
+  width: 80%;
+  min-height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.input-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-container {
+  text-align: center;
+}
