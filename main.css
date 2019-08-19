@@ -14,3 +14,14 @@
 .heading-container {
   text-align: center;
 }
+
+.todo-list {
+    text-align: center;
+    list-style: none;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
