@@ -1,8 +1,29 @@
 .wrapper {
-  width: 80%;
+    width: 80%;
+    margin: 30px auto;
+}
+.to-do-list-container {
+  /* width: 80%; */
   min-height: 500px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  /* padding-top: 85px; */
   border: 1px solid black;
+}
+
+.tabs-container a {
+    color: dodgerblue;
+    list-style: none;
+    border: 1px solid black;
+    border-bottom: none;
+    height: 2em;
+    width: 5em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: center;
 }
 
 .input-container {
