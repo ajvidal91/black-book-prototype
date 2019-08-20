@@ -1,0 +1,49 @@
+.wrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.to-do-list-container {
+  /* width: 80%; */
+  min-height: 500px;
+  /* margin: 0 auto; */
+  /* padding-top: 85px; */
+  border: 1px solid black;
+}
+
+.tabs-container a {
+  color: dodgerblue;
+  list-style: none;
+  border: 1px solid black;
+  border-bottom: none;
+  height: 2em;
+  width: 5em;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.todo-list {
+  text-align: center;
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
