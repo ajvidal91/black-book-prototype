@@ -20,7 +20,7 @@
     list-style: none;
 }
 
-.list-item:hover {
+li:hover {
     cursor: pointer;
     color: blue;
     text-decoration: underline;
